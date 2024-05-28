@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/api/v1/users/token", (req, res) => {
-  console.log(req.body);
+  return console.log(req.body);
 });
 
 app.listen(port, () => {
